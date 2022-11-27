@@ -4,7 +4,7 @@ require("chromedriver");
 
 const VyshyvankaCrossPage = require("../pages/VyshyvankaCrossPage");
 
-describe("Filter items in catalog.", () => {
+describe("Adding and deleting items from cart.", () => {
   const pageUrl = "https://jolybell.com/product/120";
   const expectedProductPrice = '29.78 USD';
   const expectedProductName = 'Вышиванка Крест';
